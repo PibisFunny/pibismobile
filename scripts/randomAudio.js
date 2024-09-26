@@ -49,3 +49,14 @@ function play() {
         isCooldown = false;
     }, 575);
 }
+
+const preloadAudio = (files) => {
+    files.forEach(file => {
+        const audio = new Audio(file);
+        audio.preload = 'auto';
+        document.body.appendChild(audio);
+    });
+};
+
+// Preload all sound files
+preloadAudio(soundFiles);
