@@ -4,9 +4,10 @@ background: red;
 
 
 .mascot {
-image-rendering: pixelated;
+
 position: absolute;
 right: 0px;
 bottom: 0px;
 filter: drop-shadow(5px 10px 6px rgba(0,0,0,0.2));
+width: calc(100% / 3);
 }

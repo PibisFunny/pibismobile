@@ -10,7 +10,26 @@
 <body>
 
 <p class="butt">Hello! I love you</p>
-<img class="mascot" src="https://m.pibis.net/img/flair/jamie.png"/>
+
+<img class="mascot" src="https://m.pibis.net/img/flair/jamie.png" onclick="play();changeImg(this, 'https://m.pibis.net/img/flair/jamieSqueak.png');"/>
+
+
+
+<audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+
+
+
+
+
+
+
+<script>
+  function play() {
+   var audio = document.getElementById("audio");
+  audio.play();
+ }
+</script>
+<script src="scripts/imageChange.js"></script>
 
 </body>
 
