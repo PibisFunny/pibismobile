@@ -12,6 +12,6 @@ function changeImg(objImg, newSrc) {
     
     setTimeout(() => {
       objImg.setAttribute('src', originalSrcBase);
-    }, 500);
+    }, 575);
   }
 }

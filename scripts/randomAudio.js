@@ -47,5 +47,5 @@ function play() {
     isCooldown = true;
     setTimeout(() => {
         isCooldown = false;
-    }, 500);
+    }, 575);
 }
