@@ -15,8 +15,9 @@ const soundFiles = [
     URL + 'sci_pain5.mp3',
 
     URL + 'mus_mt_yeah.mp3',
+    URL + 'say1.mp3',
 
-    URL + 'NUKE.mp3'
+    // URL + 'NUKE.mp3'
 ];
 
 function getRandomSound() {
