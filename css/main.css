@@ -1,19 +1,31 @@
 body {
   margin:0;
   padding:0;
-background: teal;
+background: rgb(45, 64, 73);
 }
 
 .butt {
-background: red;
+background: rgb(0, 0, 0);
+width: 90vw;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-style: outset;
 }
 
 .center {
 display: block;
 margin-left: auto;
 margin-right: auto;
-background: red;
+background: rgb(74, 119, 121);
 margin-top: 12px;
+width: 75vw;
+}
+
+img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
 }
 
 
@@ -23,4 +35,9 @@ right: 0px;
 bottom: 0px;
 filter: drop-shadow(5px 10px 6px rgba(0,0,0,0.2));
 width: calc(100% / 3);
+}
+
+a {
+  color: rgb(105, 213, 255);
+  font-size: 14pt; 
 }
